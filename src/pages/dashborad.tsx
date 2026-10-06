@@ -65,6 +65,8 @@ function Dashboar() {
             <div >
                 hola {profile.usuario}
             </div>
+            <div>psdt: refresque la pantalla para ver el dashboard actualizado.
+            </div>
             <button onClick={() => {
                 logout()
                 navigate('/login')
